@@ -14,18 +14,18 @@ body{
  padding: 20px;
 }
 
-h1{
+.header-text{
   margin-right: auto;
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
 
-h4{
+.project-text{
 font-size: 12px;
 font-weight: 500;
 }
 
-img{
+.img{
   height: 100%;
   margin-right: 6px;
 }
