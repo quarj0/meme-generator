@@ -26,7 +26,7 @@ const url = memesArray[randomNumber].url
         <input className='form-input' 
         type="text" />
         <button onClick={getMeme} className='form-btn' 
-        >Get new meme image 🏝️</button>
+        >Get new meme image 🖼️</button>
       </div>
       <img src={meme.randomImage} className='meme-image' alt='meme' />
     </main>
