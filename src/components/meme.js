@@ -11,7 +11,7 @@ const Meme = () => {
 
     function getMeme(){
       const memesArray = allMemeImages.data.memes
-      const randomNumber = Math.floor(Math.random() * memesData.length);
+      const randomNumber = Math.floor(Math.random() * memesArray.length);
 const url = memesArray[randomNumber].url
       setmeme(prevMeme => ({
         ...prevMeme,
@@ -25,10 +25,12 @@ const url = memesArray[randomNumber].url
         type="text" />
         <input className='form-input' 
         type="text" />
-        <button onClick={getMeme} className='form-btn' 
+        <button onClick={getMeme} 
+        className='form-btn' 
         >Get new meme image 🖼️</button>
       </div>
-      <img src={meme.randomImage} className='meme-image' alt='meme' />
+      <img src={meme.randomImage}
+       className='meme-image' alt='meme' />
     </main>
   )
 }

@@ -1,6 +1,5 @@
 import Header from './components/header'
 import Meme from './components/meme'
-import './App.css';
 // import Practice from './components/practice';
 function App() {
   return (
