@@ -30,6 +30,11 @@ font-weight: 500;
   margin-right: 6px;
 }
 
+.meme-image{
+  margin: 32px;
+  max-width: 100%;
+}
+
 main{
   padding: 36px;
 }
@@ -42,7 +47,7 @@ main{
 }
 
 .form-input{
-  font-family: 'Times New Roman', Times, serif sans-serif;
+  font-family:"Karla", Times, serif sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
@@ -50,12 +55,16 @@ main{
 
 .form-btn{
   grid-column: 1 / -1;
-  font-family: sans-serif;
+  font-family: "Karla",sans-serif;
   border-radius: 5px;
-  border: 1px solid #D5D4D8;
+  border: none;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
   cursor: pointer;
 }
 
+.meme-text-top{
+  color: #D5D4D8;
+  display: flex;
+}
 
